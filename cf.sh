@@ -6,11 +6,11 @@ MYIP=$(wget -qO- ipv4.wildyproject.com);
 echo "Script By egi"
 clear
 apt install jq curl -y
-DOMAIN=falconssh.com
+DOMAIN=mitravpn.xyz
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c4)
-SUB_DOMAIN=${sub}.falconssh.com
-CF_ID=admin@falconssh.com
-CF_KEY=6297a129a61606f143cba8430c413f38c62ab
+SUB_DOMAIN=${sub}.mitravpn.xyz
+CF_ID=admin@mitravpn.xyz
+CF_KEY=fd51b2c97aff25c257b2b48bd56d7e68eaa6a
 set -euo pipefail
 IP=$(wget -qO- ipv4.wildyproject.com);
 echo "Updating DNS for ${SUB_DOMAIN}..."
